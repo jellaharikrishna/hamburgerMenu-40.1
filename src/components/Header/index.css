@@ -1,0 +1,85 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 8vh;
+  border-bottom: 1px solid #dcdcdc;
+}
+.header-website-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.popup-link {
+  text-decoration: none;
+  color: black;
+}
+.header-hamburger-icon-btn {
+  background-color: transparent;
+  border: none;
+}
+.header-hamburger-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .header-website-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .header-hamburger-icon {
+    margin-right: 20px;
+  }
+}
+.none {
+  display: none;
+}
+.popup-close-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 8vh;
+  width: 100vw;
+}
+.popup-close-icon-btn {
+  align-self: flex-end;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.popup-close-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  margin: 0;
+}
+.popup-link {
+  text-decoration: none;
+}
+.popup-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.popup-heading {
+  font-family: roboto;
+  margin: 4px;
+}
